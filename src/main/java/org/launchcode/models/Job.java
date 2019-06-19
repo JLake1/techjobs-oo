@@ -90,4 +90,13 @@ public class Job {
     public int hashCode() {
         return id;
     }
+
+    public String toString() {
+        return ("Name: " + this.name + "\n" +
+                "Position Type: " + this.positionType + "\n" +
+                "Location: " + this.location + "\n" +
+                "Employer: " + this.employer + "\n" +
+                "Skill: " + this.coreCompetency + "\n" +
+                "ID: " + this.id);
+    }
 }
